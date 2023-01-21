@@ -32,7 +32,6 @@ spec:
         volumeMounts:
         - name: custom-index
           mountPath: /usr/share/nginx/html
-          subPath: index.html
       volumes:
       - name: custom-index
         configMap:
@@ -72,7 +71,6 @@ spec:
         volumeMounts:
         - name: custom-index
           mountPath: /usr/share/nginx/html
-          subPath: index.html
       volumes:
       - name: custom-index
         configMap:
